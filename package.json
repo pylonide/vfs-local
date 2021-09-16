@@ -11,9 +11,9 @@
       "name": "Fabian Jakobs",
       "email": "fabian@c9.io"
     },
-    "Sten Feldman <exile@chamber.ee> (http://sten.feldman.eesti.ee/)"
+    "Sten Feldman <exile@chamber.ee> (https://sten.pw/)"
   ],
-  "version": "0.6.2",
+  "version": "0.7.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/pylonide/vfs-local.git"
@@ -33,6 +33,6 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">= 10.20.1"
+    "node": ">= 12.22.1"
   }
 }
