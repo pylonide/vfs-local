@@ -1,6 +1,6 @@
 # VFS Local
 
-[![Build Status](https://travis-ci.org/pylonide/vfs-local.svg?branch=master)](https://travis-ci.org/pylonide/vfs-local)
+![Build Status](https://github.com/pylonide/vfs-local/actions/workflows/nodejs.yml/badge.svg)
 
 VFS is an abstract interface for working with systems.  This module is the reference implementation and provides a vfs interface to the local system using node apis.  This is also often used in conjuction with `vfs-socket` to provide the vfs interface to a remote system over any kind of network socket.
 
