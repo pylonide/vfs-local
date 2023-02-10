@@ -13,7 +13,7 @@
     },
     "Sten Feldman <exile@chamber.ee> (https://sten.pw/)"
   ],
-  "version": "0.8.1",
+  "version": "0.9.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/pylonide/vfs-local.git"
@@ -33,6 +33,6 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">= 12.22.1"
+    "node": ">= 14.21.1"
   }
 }
