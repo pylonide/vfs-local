@@ -1,8 +1,11 @@
 {
   "name": "@pylonide/vfs-local",
+  "version": "0.11.0",
   "description": "A vfs implementation that works on the local filesystem.",
-  "author": "Ajax.org B.V. <info@ajax.org>",
+  "author": "Sten Feldman <exile@chamber.ee>",
+  "license": "MIT",
   "contributors": [
+    "Ajax.org B.V. <info@ajax.org>",
     {
       "name": "Tim Caswell",
       "email": "tim@c9.io>"
@@ -13,7 +16,6 @@
     },
     "Sten Feldman <exile@chamber.ee> (https://sten.pw/)"
   ],
-  "version": "0.10.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/pylonide/vfs-local.git"
@@ -31,8 +33,7 @@
   "scripts": {
     "test": "git clean -df test/mock; mocha -R spec"
   },
-  "license": "MIT",
   "engines": {
-    "node": ">= 14.21.1"
+    "node": ">= 18.18.2"
   }
 }
