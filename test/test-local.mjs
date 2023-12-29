@@ -44,7 +44,7 @@ describe('vfs-local', function () {
     });
     it('should reject paths that resolve outside the root', function (done) {
       vfs.resolve("/../test-local.js", {}, function (err, meta) {
-        expect(err).property("code").equals("EACCESS");
+        expect(err).property("code").equals("ENOENT");
         done();
       });
     });
