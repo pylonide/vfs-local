@@ -26,7 +26,7 @@
     "node-pty": "1.1.0-beta8"
   },
   "devDependencies": {
-    "chai": "~5.0.0",
+    "chai": "~5.1.0",
     "mocha": "~10.2.0",
     "vfs-lint": "~0.0.1"
   },
