@@ -23,7 +23,7 @@
   "main": "localfs.js",
   "dependencies": {
     "simple-mime": "~0.1.0",
-    "node-pty": "1.1.0-beta38"
+    "node-pty": "1.1.0-beta39"
   },
   "devDependencies": {
     "chai": "~6.2.0",
