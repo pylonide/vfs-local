@@ -1,6 +1,6 @@
 {
   "name": "@pylonide/vfs-local",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "description": "A vfs implementation that works on the local filesystem.",
   "author": "Sten Feldman <exile@chamber.ee>",
   "license": "MIT",
