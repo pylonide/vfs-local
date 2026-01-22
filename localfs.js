@@ -621,7 +621,21 @@ module.exports = function setup(fsOptions) {
     }
 
     function rmfile(path, options, callback) {
-        remove(path, fs.unlink, callback);
+      resolvePath(path, function (err, realpath) {
+        if (err) return callback(err);
+
+        fs.lstat(realpath, function (err, stat) {
+          if (err) return callback(err);
+
+          if (stat.isDirectory()) {
+            const e = new Error("EISDIR: Requested resource is a directory");
+            e.code = "EISDIR";
+            return callback(e);
+          }
+
+          remove(path, fs.unlink, callback);
+        });
+      });
     }
 
     function rmdir(path, options, callback) {
