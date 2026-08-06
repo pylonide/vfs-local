@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "chai": "~6.2.2",
-    "mocha": "~11.7.5",
+    "mocha": "~11.8.0",
     "vfs-lint": "~0.0.1"
   },
   "scripts": {
